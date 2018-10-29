@@ -5270,7 +5270,6 @@ small {
 
 .flow-text {
   font-weight: 300;
-  text-align: left;
 }
 
   @media only screen and (min-width: 360px) {
