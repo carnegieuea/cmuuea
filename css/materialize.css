@@ -2120,7 +2120,7 @@ ul.staggered-list li {
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important; } }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1000px) {
   .hide-on-med-and-down {
     display: none !important; } }
 
@@ -5269,7 +5269,10 @@ small {
   font-weight: 300; }
 
 .flow-text {
-  font-weight: 300; }
+  font-weight: 300;
+  text-align: left;
+}
+
   @media only screen and (min-width: 360px) {
     .flow-text {
       font-size: 1.2rem; } }
