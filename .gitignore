@@ -1,0 +1,6 @@
+*.pyc
+venv
+tmp
+.DS_Store
+
+!tmp/__init__.py

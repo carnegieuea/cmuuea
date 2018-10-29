@@ -1,0 +1,48 @@
+html {
+  font-family: 'Muli', sans-serif;
+}
+
+.top-nav {
+  height: 148px;
+  margin-bottom: 28px;
+}
+
+.top-nav-logo {
+  line-height: 148px;
+}
+
+div.top-nav-title-row {
+  margin-bottom: 0px;
+  line-height: 100px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 28pt;
+  color: white;
+}
+
+div.top-nav-links-row {
+  margin-bottom: 0px;
+  line-height: 48px;
+}
+
+div.top-nav-links-row .tabs .indicator {
+  height: 3px;
+  background-color: #81d4fa;
+}
+
+object.logo {
+  height: 100px;
+  width: auto;
+}
+
+.page-footer.footer-bottom {
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+div.col.splash-slider {
+  padding-right: 0px;
+}

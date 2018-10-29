@@ -1,0 +1,435 @@
+html, body {
+    height: 100%;
+}
+
+body {
+  background-color: #FCFCFC;
+}
+
+header, main, footer {
+  padding-left: 240px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+.container {
+  width: 85%;
+}
+
+.bottom-slim {
+  padding-bottom: 0px !important;
+}
+
+.logo {
+  padding-top: 15px;
+  width: 210px;
+}
+
+ul.side-nav.fixed li.logo {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+ul.side-nav#nav-mobile li {
+  padding: 0px;
+  line-height: 48px;
+}
+
+nav.top-nav .page-title {
+  font-size: 30pt;
+  line-height: 112px;
+}
+
+nav.top-nav {
+  height: 112px;
+}
+
+a.button-collapse.top-nav.full {
+  line-height: 96px;
+}
+
+a.button-collapse.top-nav {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  float: none;
+  margin-left: 1rem;
+  color: #444;
+  font-size: 30px;
+  z-index: 2;
+}
+
+.page-footer.footer-bottom {
+  padding: 0;
+  padding-left: 240px;
+  box-sizing: content-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+main.main-with-footer {
+  padding-bottom: 240px;
+}
+
+#login-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#login-button .notification-badge {
+  height: 28px;
+  width: 28px;
+  padding: 0px;
+  font-size: 0.75rem;
+  min-width: 0px;
+  float: left;
+  margin-top: 4px;
+  margin-right: 10px;
+  line-height: 2rem;
+  display: none;
+}
+
+#login-dropdown .notification-badge {
+  height: 28px;
+  width: 28px;
+  padding: 0px;
+  font-size: 0.75rem;
+  min-width: 0px;
+  float: right;
+  margin-top: -3px;
+  margin-right: 10px;
+  line-height: 2rem;
+  display: none;
+}
+
+#timeline-tab-notification-badge.notification-badge {
+  height: 28px;
+  width: 28px;
+  padding: 0px;
+  font-size: 0.75rem;
+  min-width: 0px;
+  float: left;
+  margin-top: 0px;
+  margin-right: 0px;
+  position: relative;
+  left: 50px;
+  top: 8px;
+  line-height: 2rem;
+}
+
+.profile-avatar {
+  width: 100%;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 0.8rem;
+}
+
+.profile-header {
+  width: 100%;
+  height: 320px;
+  padding: 0 !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-header-body {
+  height: 80%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.profile-header-footer {
+  height: 20%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.profile-heading {
+  font-size: 38pt;
+  width: 100%;
+}
+
+.profile-subheading {
+  font-size: 22pt;
+  width: 100%;
+}
+
+.profile-tag-wrapper {
+  height: 100%;
+  padding: 0px !important;
+}
+
+.profile-tag {
+  width: 100%;
+}
+
+.profile-btn-box {
+  min-width: 10px;
+}
+
+.profile-btn {
+  position: relative;
+  bottom: 28px;
+}
+
+.profile-tabs {
+  margin-bottom: 20px;
+}
+
+#profile .short-bio {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#profile .profile-summary {
+  max-width: 500px;
+  padding: 0;
+  width: 100%;
+}
+
+.search-match-avatar {
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+
+table.profile-info-card td {
+  padding: 0 10px;
+  line-height: 1.3;
+  font-size: 16px;
+}
+
+.timeline-post-card div.row {
+  margin-bottom: 0px;
+}
+
+.timeline-post-card div.timeline-post-avatar-container {
+  min-width: 118px;
+  max-width: 135px;
+  padding: 20px 30px;
+}
+
+.timeline-post-card div.timeline-post-avatar {
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.timeline-post-card .timeline-post-name {
+  line-height: 30px;
+  font-size: 24pt;
+  font-weight: 300;
+  display: block;
+}
+
+.timeline-post-card .timeline-post-time {
+  line-height: 20px;
+  font-size: 10pt;
+  font-weight: 300;
+  display: block;
+}
+
+.timeline-post-card a {
+  text-transform: none;
+  margin-right: 0;
+}
+
+.search-qns {
+  font-weight: 300;
+}
+
+input.search-bar {
+  font-size: 40pt;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+button.search-button {
+  height: 100%;
+}
+
+p.search-button-icon {
+  font-size: 30pt;
+  line-height: 1em;
+  text-transform: none;
+  margin-top: 0;
+}
+p i.search-button-icon {
+  font-size: 30pt;
+  line-height: 1em;
+}
+
+div.schedule-banner {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+table.schedule-table tr.item{
+  border-collapse: none;
+}
+
+table.schedule-table td.empty{
+  content: ' ';
+}
+
+table.schedule-table td.bar{
+  padding: 10px;
+  content: ' ';
+}
+
+table.schedule-table td.bar div.bar {
+  content: ' ';
+  background-color: white;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+
+  main {
+    padding-top: 100px;
+  }
+
+  nav .nav-wrapper {
+    text-align: center;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .page-footer.footer-bottom {
+    padding: 0;
+  }
+
+  .profile-avatar {
+    height: 240px;
+  }
+
+  .profile-header {
+    height: 160px;
+    margin-bottom: 100px;
+  }
+
+  .profile-header-body {
+    font-size: 30pt;
+    line-height: 20px;
+  }
+
+  .profile-header-footer {
+    min-height: 50px;
+  }
+
+  .profile-btn {
+    position: static;
+    bottom: auto;
+  }
+
+  .profile-btn-box {
+    padding-top: 20px !important;
+  }
+
+  .timeline-post-card div.timeline-post-avatar-container {
+    min-width: 98px;
+    max-width: 115px;
+  }
+
+  .timeline-post-card div.timeline-post-avatar {
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+  }
+
+  div.schedule-banner {
+    height: 350px;
+  }
+
+  #timeline-tab-notification-badge.notification-badge {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .profile-heading {
+    font-size: 28pt;
+  }
+
+  .profile-subheading {
+    font-size: 20pt;
+  }
+
+  .main-page-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .timeline-post-card div.timeline-post-avatar-container {
+    min-width: 68px;
+    max-width: 85px;
+  }
+
+  .timeline-post-card div.timeline-post-avatar {
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+  }
+
+  div.schedule-banner {
+    height: 300px;
+  }
+}
+
+.event_btn {
+  color: #BBBBBB;
+  transition: all 0.3s ease-out;
+  position: absolute;
+  font-size: 25px;
+  top: 5px;
+}
+
+.event_btn:hover {
+  color: #888888;
+}
+
+.event_btn.-edit {
+  right: 40px;
+}
+
+.event_btn.-delete {
+  right: 10px;
+  
+}
+
+.event_action_btn {
+}
+
+.event_action_btn:hover {
+  background-color: #E53935 !important;
+}
+
+.schedule_main {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Undergraduate Entrepreneurship Association</title>
+    <link rel="shortcut icon" href="img/favicon-16x16.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,500' rel='stylesheet' type='text/css'>
+
+    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection">
+</head>
+
+<body class="smooth-trans sideMenuBody">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/paul.js"></script>
+    <script src="js/preinit.js"></script>
+
+    <nav class="transparent shadowless">
+        <div class="nav-wrapper slight-container">
+            <a href="/" class="brand-logo">
+                <img src="img/logo.png">
+            </a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content //-->
+
+    <div class="section orange gradient white-text center" id="index-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="header hide-on-med-and-down">Undergraduate Entrepreneurship Association</h1>
+                    <h3 class="header hide-on-large-only">Undergraduate Entrepreneurship Associations</h3>
+                    <a href="/about/" id="signup-button" class="btn btn-pill modal-trigger" style="margin-bottom: 2em;">join us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grey lighten-5 first-from-top-pad">
+        <div class="container">
+            <div class="section" id="latest-news">
+
+                <div class="row">
+                    <div class="col s12 center">
+                        <h4>Latest News</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <ul id="newslist" class="staggerlist">
+                        <li>
+                            <div class="col s12 m6 l4">
+                                <div class="card">
+                                    <div class="card-image center waves-effect waves-block waves-light">
+                                        <div class="img-bg-cover">
+                                            <img class="img-bg" src="images/cmuvc.png">
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title black-text"><a href="http://cmuvc.cmuuea.com">CMUVC 2017 applications</a> are now open!</span>
+                                        <br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="row">
+                    <div class="col s12 right-align">
+                        <a href="/about/" id="more-news" trans-color="#cfd8dc">More news...</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="white lighten-5">
+        <div class="container">
+            <div class="section" id="events">
+
+                <div class="row v-wrap">
+
+                    <div class="col s12 l7 valign">
+                        <div class="row">
+                            <div class="col s12">
+                                <h4>Events Calendar</h4>
+                            </div>
+                        </div>
+                        <div id="today-event-items">
+                            <div class="row">
+                                <div class="col s12 m4">
+                                    <div class="picker__date-display z-depth-1">
+                                        <div class="picker__weekday-display">Sunday</div>
+                                        <div class="picker__month-display">
+                                            <div>Oct</div>
+                                        </div>
+                                        <div class="picker__day-display">
+                                            <div>28</div>
+                                        </div>
+                                        <div class="picker__year-display">
+                                            <div>2018</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12 m7 events-list">
+
+                                    <div class="center">
+                                        <h5>There are no upcoming events within 7 days.</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 l11 right-align">
+                                    <a class="circle-trans-link" href="/">More events...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 l5 valign">
+                        <form class="center">
+                            <div class="row">
+                                <div class="col s12 m10 offset-m1">
+                                    <h5 class="center">
+                    Subscribe to our newsletter
+                  </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s10 offset-s1 m8 offset-m2 center">
+                                    <input id="email" type="text" class="validate">
+                                    <label for="email">your email</label>
+                                </div>
+                            </div>
+                            <button class="btn orange" type="submit" name="action">
+                                notify me
+                                <i class="mdi-content-send right"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Main Content //-->
+
+    <!-- Page Footer //-->
+    <footer class="page-footer center-align grey lighten-4 grey-text text-darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="list-horizontal">
+                        <li><a class="social" href="//facebook.com/cmuuea"><i class="fa fa-facebook"></i></a></li>
+                        <li><span class="grey-text text-lighten-2">•</span></li>
+                        <li><a class="social" href="mailto:cmuuea@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <h6>Partners Who Made It Possible</h6>
+                                        <br/>
+                                        <br/>
+                                    </div>
+                                </div>
+                                <div class="row" id="footer-partner-icons">
+                                    <div class="col s12">
+                                        <div class="slider hide-on-med-and-down">
+                                            <ul class="slides">
+
+                                                <li>
+                                                    <div class="caption left-to-right">
+                                                        <div class="row">
+                                                            <div class="col l3 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col l3 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col l3 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col l3 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="caption left-to-right">
+                                                        <div class="row">
+                                                            <div class="col l3 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col l3 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col l3 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col l3 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="slider hide-on-small-only hide-on-large-only">
+                                            <ul class="slides">
+
+                                                <li>
+                                                    <div class="caption left-to-right">
+                                                        <div class="row">
+                                                            <div class="col m4 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col m4 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col m4 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="caption left-to-right">
+                                                        <div class="row">
+                                                            <div class="col m4 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col m4 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col m4 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="caption left-to-right">
+                                                        <div class="row">
+                                                            <div class="col m4 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                            <div class="col m4 text-center">
+
+                                                                <img src="images/partners/cie.png" class="partners-icon">
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                        </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="slider hide-on-med-and-up">
+                                        <ul class="slides">
+
+                                            <li>
+                                                <div class="caption left-to-right">
+                                                    <div class="row">
+                                                        <div class="col s6 text-center">
+
+                                                            <img src="images/partners/cie.png" class="partners-icon">
+
+                                                        </div>
+
+                                                        <div class="col s6 text-center">
+
+                                                            <img src="images/partners/cie.png" class="partners-icon">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="caption left-to-right">
+                                                    <div class="row">
+                                                        <div class="col s6 text-center">
+
+                                                            <img src="images/partners/cie.png" class="partners-icon">
+
+                                                        </div>
+
+                                                        <div class="col s6 text-center">
+
+                                                            <img src="images/partners/cie.png" class="partners-icon">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="caption left-to-right">
+                                                    <div class="row">
+                                                        <div class="col s6 text-center">
+
+                                                            <img src="images/partners/cie.png" class="partners-icon">
+
+                                                        </div>
+
+                                                        <div class="col s6 text-center">
+
+                                                            <img src="images/partners/cie.png" class="partners-icon">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="caption left-to-right">
+                                                    <div class="row">
+                                                        <div class="col s6 text-center">
+
+                                                            <img src="images/partners/cie.png" class="partners-icon">
+
+                                                        </div>
+
+                                                        <div class="col s6 text-center">
+
+                                                            <img src="images/partners/cie.png?Signature=SeAGwVBGnrvNlPhJCcnX%2Fd8pODc%3D&Expires=1540763596&AWSAccessKeyId=AKIAIAB3UOIVTO6DF4GA" class="partners-icon">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <p>© 2018 Carnegie Mellon University Undergraduate Entrepreneurship Association. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright" style="height: 0;">
+        </div>
+    </footer>
+
+    <!-- End of Page Footer //-->
+
+    <!--  Scripts-->
+
+    <script src="js/materialize.js"></script>
+
+    <script src="js/init.js" id="js-init" p="home"></script>
+
+</body>
+
+</html>

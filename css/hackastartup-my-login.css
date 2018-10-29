@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+}
+
+header, main, footer {
+  padding-left: 0px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+.container {
+  width: 85%;
+}
+
+.logo {
+  width: 30%;
+  min-width: 300px;
+}
+
+.page-footer.footer-bottom {
+  padding: 0;
+  box-sizing: content-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#login-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.login-form-box {
+  border-radius: 5px;
+}
+
+.login-form {
+  padding: 20px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  nav .nav-wrapper {
+    text-align: center;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .page-footer.footer-bottom {
+    padding: 0;
+  }
+}

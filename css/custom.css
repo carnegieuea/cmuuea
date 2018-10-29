@@ -1,0 +1,143 @@
+.slight-container {
+    width: 92%;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+nav {
+    height: 96px;
+    line-height: 96px;
+}
+
+.nav-wrapper {
+    border-bottom: 1px #fff solid;
+}
+
+.nav-wrapper li:last-child:before {
+    content: '';
+    height: 50%;
+    width: 1px;
+    position: absolute;
+    top: 25%;
+    background-color: #fff;
+}
+
+.btn {
+    text-transform: none;
+    margin: 0.5em;
+}
+
+.btn-pill {
+    border-radius: 5em;
+    border: 2px #fff solid;
+    width: auto;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    box-shadow: 0 0 0 0;
+    height: auto;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.btn-pill:hover {
+    box-shadow: 0 0 0 0;
+    background-color: #fff;
+    color: #bdbdbd;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    /*border-bottom: 2px #111 solid;*/
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.lnr {
+    font-size: 80px;
+}
+
+.list-horizontal {
+    margin-top: 3em;
+}
+
+.list-horizontal li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.list-horizontal a.social {
+    font-size: 21px;
+    color: #757575;
+}
+
+.list-horizontal a.social:hover {
+    color: #bdbdbd;
+}
+
+.list-horizontal a {
+    color: #9e9e9e;
+}
+
+.list-horizontal a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    margin: 3em auto;
+}
+
+.gradient {
+    padding-top: 7em;
+    /*padding-bottom: 5em;*/
+}
+
+.orange.gradient {
+    background: -webkit-linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* W3C */       
+}
+
+.brand-logo {
+    font-size: 24px;
+    font-weight: 500;
+    height: 100%;
+}
+
+.brand-logo img,
+.brand-logo object {
+    height: 70%;
+    vertical-align: middle;
+}
+
+nav ul a:hover {
+    background-color: #fff;
+    color: #757575;
+}
+
+.headline {
+    font-style: italic;
+    margin: 2em 1em;
+    font-weight: 200;
+}
+
+.slider .slides {
+    background-color: transparent;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #757575;
+}
+
+.page-footer .container p:last-child {
+    margin-bottom: 3em;
+}
